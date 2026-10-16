@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+sqlalchemy[asyncio]
+asyncpg
+motor
+pymongo
+elasticsearch>=8.17,<9  # must match the ES 8.x server (9.x clients are rejected)
+aiohttp  # required by the async elasticsearch client
+pytest
+httpx
+pytest-asyncio
+python-dotenv
